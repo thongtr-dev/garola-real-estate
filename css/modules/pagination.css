@@ -1,0 +1,10 @@
+.page-numbers {
+    padding: 5px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.page-numbers:nth-child(1) {
+    margin-left: 0;
+}

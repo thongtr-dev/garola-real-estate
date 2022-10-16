@@ -1,0 +1,30 @@
+/* Header and Footer Nav Menu */
+#menu-main-menu,
+#menu-main-menu-1 {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu-main-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+#menu-main-menu li a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: rgb(109, 109, 109);
+}
+
+#menu-main-menu li a:hover, #menu-main-menu .current-menu-item a {
+    color: #0bd99e;
+}
+
+
+@media screen and (max-width: 768px) {
+    #menu-main-menu {
+        flex-direction: column;
+        align-items: center;
+    }
+}
