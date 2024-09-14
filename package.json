@@ -10,10 +10,10 @@
 		"Real Estate"
 	],
 	"devDependencies": {
-		"@wordpress/scripts": "^12.1.0",
+		"@wordpress/scripts": "^19.2.2",
 		"dir-archiver": "^1.1.1",
-		"node-sass": "^4.14.1",
-		"rtlcss": "^2.5.0",
+    	"node-sass": "^7.0.1",
+    	"rtlcss": "^3.5.0",
 		"stylelint": "^13.13.1",
 		"stylelint-config-standard": "^22.0.0"
 	},
